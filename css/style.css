@@ -1,0 +1,109 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #F8FAF7;
+    color: #123524;
+}
+
+.site-header {
+    background-color: #123524;
+    color: #F8FAF7;
+}
+
+.site-footer {
+    background-color: #123524;
+    color: #F8FAF7;
+}
+
+.menu-button {
+    color: #F8FAF7;
+}
+
+.nav-link {
+    color: #F8FAF7;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: #3FA169;
+    color: #123524;
+}
+
+.nav-current {
+    background-color: #3FA169;
+    color: #123524;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.dark-box {
+    background-color: #123524;
+    color: #F8FAF7;
+}
+
+.accent-box {
+    background-color: #3FA169;
+    color: #123524;
+}
+
+.site-aside {
+    background-color: #123524;
+    color: #F8FAF7;
+}
+
+.accent-text {
+    color: #3FA169;
+}
+
+.accent-button {
+    background-color: #3FA169;
+    color: #123524;
+}
+
+.accent-button:hover {
+    background-color: #F8FAF7;
+}
+
+.dark-button {
+    background-color: #123524;
+    color: #F8FAF7;
+}
+
+.dark-button:hover {
+    background-color: #F8FAF7;
+    color: #123524;
+}
+
+.project-card {
+    background-color: #F8FAF7;
+    color: #123524;
+}
+
+.interest-pill {
+    background-color: #F8FAF7;
+    color: #123524;
+}
+
+.dark-link {
+    color: #123524;
+}
+
+.dark-link:hover {
+    text-decoration: underline;
+}
+
+.light-link {
+    color: #F8FAF7;
+}
+
+.light-link:hover {
+    color: #3FA169;
+    text-decoration: underline;
+}
+
+.accent-link {
+    color: #3FA169;
+}
+
+.accent-link:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projectinformatie — Tarik</title>
+    <meta name="description"
+        content="Lees meer over een project van Tarik binnen zijn opleiding Systeem- en Netwerkbeheer.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <a href="#inhoud" class="sr-only focus:not-sr-only focus:absolute focus:left-2 focus:top-2
+        focus:rounded-lg focus:bg-white focus:px-4 focus:py-2 focus:text-blue-800
+        focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-700">
+        Ga naar de inhoud
+    </a>
+
+    <header class="site-header">
+
+        <div class="max-w-6xl mx-auto px-4 py-4 flex flex-wrap items-center justify-between gap-3">
+
+            <a href="index.html" class="rounded-lg
+                focus-visible:outline-2
+                focus-visible:outline-offset-2
+                focus-visible:outline-blue-700">
+
+                <img src="images/logo.png" alt="Logo van Tarik" width="70" height="70">
+            </a>
+
+            <input type="checkbox" id="menu-knop" class="peer sr-only md:hidden">
+
+            <label for="menu-knop" class="menu-button cursor-pointer rounded-lg border border-gray-300 px-3 py-2
+                peer-focus-visible:outline-2
+                peer-focus-visible:outline-offset-2
+                peer-focus-visible:outline-blue-700
+                md:hidden">
+                Menu
+            </label>
+
+            <nav aria-label="Hoofdmenu" class="hidden w-full peer-checked:block md:block md:w-auto">
+
+                <ul class="flex flex-col md:flex-row md:gap-2">
+
+                    <li>
+                        <a href="index.html" class="nav-link block px-3 py-2 rounded-lg
+                            focus-visible:outline-2
+                            focus-visible:outline-offset-2
+                            focus-visible:outline-blue-700">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="portfolio.html" class="nav-link block px-3 py-2 rounded-lg
+                            focus-visible:outline-2
+                            focus-visible:outline-offset-2
+                            focus-visible:outline-blue-700">
+                            Portfolio
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="project.html" aria-current="page" class="nav-current block px-3 py-2 rounded-lg
+                            focus-visible:outline-2
+                            focus-visible:outline-offset-2
+                            focus-visible:outline-blue-700">
+                            Project
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html" class="nav-link block px-3 py-2 rounded-lg
+                            focus-visible:outline-2
+                            focus-visible:outline-offset-2
+                            focus-visible:outline-blue-700">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <div class="max-w-6xl mx-auto px-4">
+
+        <div class="grid grid-cols-1 gap-8 py-8 md:grid-cols-3">
+
+            <main id="inhoud" class="md:col-span-2">
+
+                <section class="dark-box p-6 rounded-lg mb-8">
+
+                    <p class="accent-text mb-4">
+                        <a href="portfolio.html" class="accent-link rounded-lg
+                            focus-visible:outline-2
+                            focus-visible:outline-offset-2
+                            focus-visible:outline-blue-700">
+                            ← Terug naar portfolio
+                        </a>
+                    </p>
+
+                    <h1 class="text-2xl font-bold tracking-tight mb-4 md:text-4xl">
+                        Projectnaam
+                    </h1>
+
+                    <p class="max-w-2xl leading-relaxed mb-6">
+                        Een korte introductie waarin ik uitleg wat
+                        dit project inhoudt en waarom ik eraan heb gewerkt.
+                    </p>
+
+                    <figure class="max-w-2xl">
+
+                        <img src="images/placeholder.png" alt="Hoofdafbeelding van het project" width="1200"
+                            height="800" class="aspect-video w-full object-cover rounded-lg">
+
+                        <figcaption class="mt-2 text-sm text-gray-100">
+                            Een beeld van het project tijdens de ontwikkeling.
+                        </figcaption>
+
+                    </figure>
+
+                </section>
+
+
+                <article class="accent-box p-6 rounded-lg">
+
+                    <h2 class="text-2xl font-bold mb-2">
+                        Over het project
+                    </h2>
+
+                    <p class="leading-relaxed mb-8">
+                        Hier beschrijf ik het doel van het project,
+                        het probleem dat ik wilde oplossen en hoe
+                        ik het project heb aangepakt.
+                    </p>
+
+
+                    <h2 class="text-2xl font-bold mb-2">
+                        Wat heb ik gedaan?
+                    </h2>
+
+                    <ul class="flex flex-col gap-2 mb-8">
+
+                        <li>Taak of verantwoordelijkheid 1</li>
+                        <li>Taak of verantwoordelijkheid 2</li>
+                        <li>Taak of verantwoordelijkheid 3</li>
+
+                    </ul>
+
+
+                    <h2 class="text-2xl font-bold mb-2">
+                        Resultaat
+                    </h2>
+
+                    <p class="leading-relaxed mb-8">
+                        Hier leg ik uit wat het eindresultaat was
+                        en wat ik tijdens het project heb geleerd.
+                    </p>
+
+
+                    <h2 class="text-2xl font-bold mb-4">
+                        Extra beelden
+                    </h2>
+
+                    <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+
+                        <img src="images/placeholder.png" alt="Extra afbeelding 1 van het project" width="1200"
+                            height="800" class="aspect-video w-full object-cover rounded-lg">
+
+                        <img src="images/placeholder.png" alt="Extra afbeelding 2 van het project" width="1200"
+                            height="800" class="aspect-video w-full object-cover rounded-lg">
+
+                        <img src="images/placeholder.png" alt="Extra afbeelding 3 van het project" width="1200"
+                            height="800" class="aspect-video w-full object-cover rounded-lg">
+
+                    </div>
+
+                </article>
+
+            </main>
+
+
+            <aside class="site-aside p-4 rounded-lg">
+
+                <h2 class="text-xl font-bold mb-4">
+                    Projectinformatie
+                </h2>
+
+                <p class="mb-2">
+                    Rol: student
+                </p>
+
+                <p class="mb-2">
+                    Technologie: ...
+                </p>
+
+                <p class="mb-2">
+                    Datum: 2026
+                </p>
+
+                <p class="mb-8">
+                    Type project: school- of persoonlijk project
+                </p>
+
+
+                <h2 class="text-xl font-bold mb-4">
+                    Vaardigheden
+                </h2>
+
+                <ul class="flex flex-wrap gap-2">
+
+                    <li class="interest-pill px-3 py-1 rounded-full">
+                        Netwerken
+                    </li>
+
+                    <li class="interest-pill px-3 py-1 rounded-full">
+                        Systeembeheer
+                    </li>
+
+                    <li class="interest-pill px-3 py-1 rounded-full">
+                        Probleemoplossing
+                    </li>
+
+                </ul>
+
+            </aside>
+
+        </div>
+
+    </div>
+
+
+    <footer class="site-footer">
+
+        <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+
+            <p>&copy; 2026 Tarik</p>
+
+            <p>Systeem- en Netwerkbeheer</p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

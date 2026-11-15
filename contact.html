@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact — Tarik</title>
+    <meta name="description"
+        content="Neem contact op met Tarik, student Systeem- en Netwerkbeheer aan AP Hogeschool Antwerpen.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <a href="#inhoud"
+        class="sr-only focus:not-sr-only focus:absolute focus:left-2 focus:top-2 focus:rounded-lg focus:bg-white focus:px-4 focus:py-2 focus:text-blue-800">
+        Ga naar de inhoud
+    </a>
+
+    <header class="site-header">
+
+        <div class="max-w-6xl mx-auto px-4 py-4 flex flex-wrap items-center justify-between gap-3">
+
+            <a href="index.html"
+                class="rounded-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-700">
+                <img src="images/logo.png" alt="Logo van Tarik" width="70" height="70">
+            </a>
+
+            <input type="checkbox" id="menu-knop" class="peer sr-only md:hidden">
+
+            <label for="menu-knop" class="menu-button cursor-pointer rounded-lg border border-gray-300 px-3 py-2
+                peer-focus-visible:outline-2
+                peer-focus-visible:outline-offset-2
+                peer-focus-visible:outline-blue-700
+                md:hidden">
+                Menu
+            </label>
+
+            <nav aria-label="Hoofdmenu" class="hidden w-full peer-checked:block md:block md:w-auto">
+
+                <ul class="flex flex-col md:flex-row md:gap-2">
+
+                    <li>
+                        <a href="index.html" class="nav-link block px-3 py-2 rounded-lg
+                            focus-visible:outline-2
+                            focus-visible:outline-offset-2
+                            focus-visible:outline-blue-700">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="portfolio.html" class="nav-link block px-3 py-2 rounded-lg
+                            focus-visible:outline-2
+                            focus-visible:outline-offset-2
+                            focus-visible:outline-blue-700">
+                            Portfolio
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="project.html" class="nav-link block px-3 py-2 rounded-lg
+                            focus-visible:outline-2
+                            focus-visible:outline-offset-2
+                            focus-visible:outline-blue-700">
+                            Project
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html" aria-current="page" class="nav-current block px-3 py-2 rounded-lg
+                            focus-visible:outline-2
+                            focus-visible:outline-offset-2
+                            focus-visible:outline-blue-700">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <div class="max-w-6xl mx-auto px-4">
+
+        <div class="grid grid-cols-1 gap-8 py-8 md:grid-cols-3">
+
+            <main id="inhoud" class="md:col-span-2">
+
+                <section class="dark-box p-6 rounded-lg mb-8">
+
+                    <p class="accent-text text-sm font-semibold uppercase tracking-widest mb-2">
+                        Contact
+                    </p>
+
+                    <h1 class="text-2xl font-bold tracking-tight mb-4 md:text-4xl">
+                        Neem contact op
+                    </h1>
+
+                    <p class="max-w-2xl leading-relaxed">
+                        Heb je een vraag, wil je samenwerken of wil je
+                        meer weten over mijn projecten?
+                        Neem gerust contact met mij op.
+                    </p>
+
+                </section>
+
+
+                <section class="accent-box p-6 rounded-lg">
+
+                    <h2 class="text-2xl font-bold mb-2">
+                        Contactformulier
+                    </h2>
+
+                    <p class="mb-6">
+                        Velden met een
+                        <span class="text-red-700" aria-hidden="true">*</span>
+                        zijn verplicht.
+                    </p>
+
+                    <form action="#" method="get" class="max-w-xl">
+
+                        <div class="mb-4">
+
+                            <label for="naam" class="block font-medium">
+                                naam
+                                <span class="text-red-700" aria-hidden="true">*</span>
+                            </label>
+
+                            <input type="text" id="naam" name="naam" autocomplete="name" required class="mt-1 w-full rounded-lg border border-gray-400 bg-white px-3 py-2
+                                focus-visible:outline-2
+                                focus-visible:outline-offset-2
+                                focus-visible:outline-blue-700">
+
+                        </div>
+
+                        <div class="mb-4">
+
+                            <label for="email" class="block font-medium">
+                                e-mail
+                                <span class="text-red-700" aria-hidden="true">*</span>
+                            </label>
+
+                            <input type="email" id="email" name="email" autocomplete="email" required
+                                aria-describedby="email-hulp" class="peer mt-1 w-full rounded-lg border border-gray-400 bg-white px-3 py-2
+                                user-invalid:border-red-700
+                                focus-visible:outline-2
+                                focus-visible:outline-offset-2
+                                focus-visible:outline-blue-700">
+
+                            <p id="email-hulp" class="mt-1 text-sm text-gray-600">
+                                Vul een e-mailadres in zoals naam@voorbeeld.be.
+                            </p>
+
+                            <p class="mt-1 hidden text-sm font-semibold text-red-700 peer-user-invalid:block">
+                                Dit e-mailadres klopt niet. Vul het in zoals naam@voorbeeld.be.
+                            </p>
+
+                        </div>
+
+                        <div class="mb-4">
+
+                            <label for="bericht" class="block font-medium">
+                                bericht
+                                <span class="text-red-700" aria-hidden="true">*</span>
+                            </label>
+
+                            <textarea id="bericht" name="bericht" rows="5" required class="mt-1 w-full rounded-lg border border-gray-400 bg-white px-3 py-2
+                                focus-visible:outline-2
+                                focus-visible:outline-offset-2
+                                focus-visible:outline-blue-700"></textarea>
+
+                        </div>
+
+                        <button type="submit" class="dark-button rounded-lg px-4 py-2
+                            focus-visible:outline-2
+                            focus-visible:outline-offset-2
+                            focus-visible:outline-blue-700">
+                            Verstuur
+                        </button>
+
+                    </form>
+
+                </section>
+
+            </main>
+
+
+            <aside class="site-aside p-4 rounded-lg">
+
+                <h2 class="text-xl font-bold mb-4">
+                    Beschikbaar
+                </h2>
+
+                <p class="text-sm leading-relaxed mb-8">
+                    Ik ben student Systeem- en Netwerkbeheer en sta open
+                    voor interessante projecten, leerervaringen en
+                    toekomstige stages.
+                </p>
+
+                <img src="images/sfeerbeeld_3_werkplek_16x9.png" alt="Sfeerbeeld van een werkplek met technologie"
+                    width="1600" height="900" class="aspect-video w-full object-cover rounded-lg">
+
+            </aside>
+
+        </div>
+
+    </div>
+
+
+    <footer class="site-footer">
+
+        <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+
+            <p>&copy; 2026 Tarik</p>
+
+            <p>Systeem- en Netwerkbeheer</p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
